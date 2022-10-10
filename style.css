@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 3rem;
+    color: rgb(238, 11, 105);
+    font-family: "Sofia", sans-serif;
+}
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.far,.fab{
+    color: rgb(238, 11, 105);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.main{
+    background-image: url(images/imgs/4\ copy.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main p{
+    font-size: 1.5rem;
+    text-transform: uppercase; 
+    /* padding-left: 130px; */
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 900;
+    /* padding-left: 130px; */
+}
+.bt1{
+    height: 45px;
+    width: 40%;
+   /* padding-left: 130px; */
+   /* padding-right: 130px; */
+   color: white;
+   outline: none;
+   border: none;
+   background-color: rgb(238, 11, 105);
+   font-weight: bold;
+   transition: all o.4s;
+   cursor: pointer;
+  
+   
+}
+.bt1:hover{
+    background: transparent;
+    border: 1px solid rgb(238, 11, 105);
+    
+    color: rgb(238, 11, 105);
+    transition: all 0.4s;
+}
+.btnc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 53px;
+    width: 40%;
+    color: black;
+    border: none;
+    
+    outline: none;
+    
+    cursor: all 0.4s; 
+    
+}
+.btnc:hover{
+    background-color: rgb(238, 11, 105);
+    color: white;
+    transition: all o.4s;
+}
+    .zoom-n-rotate{
+      border-radius: 0;
+      outline: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+   
+  .zoom-n-rotate img{
+    transition:transform .5s ease-in-out;
+  }
+  .zoom-n-rotate img:hover{
+    transform: scale(1.5);
+  }
+  .product h1{
+     font-weight: 800;         /* font-weight:  jado thai jase */
+     font-size: 2.6rem;
+  }
+  .product{
+     background: rgb(246,243, 243);      /* background aapva thi khali font no j background: badalase; */
+  }
+.discount{
+   height: 50px;
+   width: 50px;
+   background: rgb(238, 11, 105);
+   border-radius: 50%;                     /*  border-radius 50% aapva thi border gor(circle )thai jase */
+    padding: 12px 5px;                      /*  padding hamesa andar j hoy */
+    color: white;
+     position: absolute;                     /*  position absolute aapva thi circle -23off upper jatu rahase */
+     top: 15%;       
+      left: 85%;                            /* left 85% aapva thi right side ma jatu */
+      transform: translate(-50%, -50%);                   
+                 
+} 
+.dec li a{
+    text-decoration: none;
+    color: white;
+}
+
+.foter{
+    padding-top: 50px;
+    background-color: rgba(5, 4, 4, 0.685);
+    padding-bottom: 50px;
+
+}
+.fo{
+    background-color: rgba(255, 255, 255, 0.685);
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+hr{
+    border: 2px solid black;
+}
+
+
